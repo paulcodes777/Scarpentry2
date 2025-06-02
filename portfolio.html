@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shanes Carpentry</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="icon" href="images/Shanes.png" type="image/png">
+
+
+<style>
+        /*css for navbar*/
+
+        body {
+    font-family: 'Dancing Script', cursive;
+  background-color: #f9f9f9;
+  color: #333;
+  padding-top: 80px; /* needed for sticky navbar */
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+}
+
+.nav-link {
+  font-size: 1.3rem;        /* Makes the font larger */
+  letter-spacing: 1px;      /* Adds spacing between letters */
+  padding: 0 12px;          /* Adds space between links */
+}
+
+.nav-link:hover {
+  color: #d4af37;
+}
+
+.navbar-brand img {
+  max-height: 60px;
+}
+.navbar, .nav-link, .navbar-brand {
+  font-family: 'Dancing Script', cursive;
+}
+
+
+.navbar .container {
+  gap: 2rem; /* try 1.5rem or 1rem if still too wide */
+}
+
+
+/*navbar css done*/
+
+
+
+
+/*css for the picture superior craftsmenship*/
+.text-shadow {
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+/*done for superior craftsmanship*/
+
+
+
+
+
+
+
+
+
+
+
+/* contact */
+
+.contact-section {
+      padding: 60px 0;
+    }
+
+    .contact-info p,
+    .contact-info a {
+      font-size: 1.1rem;
+    }
+
+    .contact-form {
+      background-color: white;
+      padding: 40px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    .form-control:focus {
+      border-color: #d4af37;
+      box-shadow: 0 0 0 0.2rem rgba(212, 175, 55, 0.25);
+    }
+
+    .btn-dark {
+      background-color: #333;
+      border: none;
+    }
+
+    .btn-dark:hover {
+      background-color: #555;
+    }
+
+.reveal-left,
+.reveal-right {
+  opacity: 0;
+  transform: translateX(60px);
+  transition: all 1s ease;
+}
+
+.reveal-left {
+  transform: translateX(-60px);
+}
+
+.reveal-left.active,
+.reveal-right.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Staggered delays */
+.delay-1 { transition-delay: 0.4s; }
+.delay-2 { transition-delay: 0.8s; }
+.delay-3 { transition-delay: 1.2s; }
+
+/* css for the footer */
+.reveal-bottom {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: all 1s ease;
+}
+
+.reveal-bottom.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+
+/* same type of delay but for the banner image */
+.reveal-up {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: all 1s ease;
+}
+
+.reveal-up.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+    </style>
+</head>
+
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+  
+
+
+ <nav class="navbar navbar-expand-lg bg-light border-bottom fixed-top shadow-sm">
+  <div class="container d-flex justify-content-center align-items-center gap-6">
+    
+    <!-- Left: Portfolio -->
+    <a class="nav-link fw-semibold" href="portfolio.html">PORTFOLIO</a>
+
+    <!-- Center: Logo -->
+    <a class="navbar-brand" href="index.html">
+      <img src="images/Shanes.png" alt="Shane's Carpentry Logo" width="60" height="60">
+    </a>
+
+    <!-- Right: Contact -->
+    <a class="nav-link fw-semibold" href="contact.html">CONTACT</a>
+
+  </div>
+</nav>
+
+
+
+
+<!-- Banner Image with Overlay Text -->
+<section class="position-relative reveal-up delay-1" style="height: 500px;">
+  <img src="images/port.jpg" alt="We'd love to hear from you!" 
+       class="position-absolute top-0 start-0 w-100 h-100" 
+       style="object-fit: cover;">
+  <div class="position-absolute top-50 start-50 translate-middle text-white text-center">
+    <h1 class="display-4 fw-bold text-shadow">MY PORTFOLIO</h1>
+  </div>
+</section>
+
+
+
+
+
+
+<!-- Portfolio Section -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5" style="padding-top: 120px;">CLICK THE "VIEW" BUTTON TO SEE MY WORK</h2>
+
+    <div class="row g-4">
+
+      <!-- Project 1 -->
+      <div class="col-md-4 text-center reveal-left delay-1">
+        <div class="card border-0 shadow-sm">
+          <video class="img-fluid rounded" poster="images/port2.jpg" muted>
+            <source src="videos/vid1.MOV" type="video/mp4">
+          </video>
+          <div class="card-body">
+            <h5 class="card-title fw-bold">HOME FLOORING REMODEL</h5>
+            <button class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#modal1">VIEW</button>
+          </div>
+        </div>
+      </div>
+
+<!-- Project 2 -->
+      <div class="col-md-4 text-center reveal-right delay-2">
+        <div class="card border-0 shadow-sm">
+          <video class="img-fluid rounded" poster="images/port3.jpg" muted>
+            <source src="videos/vid3.MOV" type="video/mp4">
+          </video>
+          <div class="card-body">
+            <h5 class="card-title fw-bold">APARTMENT FLOORING REMODEL</h5>
+            <button class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#modal2">VIEW</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3-->
+      <div class="col-md-4 text-center reveal-left delay-3">
+        <div class="card border-0 shadow-sm">
+          <video class="img-fluid rounded" poster="images/port4.jpg" muted>
+            <source src="videos/vid2.MOV" type="video/mp4">
+          </video>
+          <div class="card-body">
+            <h5 class="card-title fw-bold">HOME BEDROOM FLOORING REMODEL </h5>
+            <button class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#modal3">VIEW</button>
+          </div>
+        </div>
+      </div>
+
+
+      
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Modal 1 -->
+<div class="modal fade" id="modal1" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-dark border-0">
+      <div class="modal-body p-0">
+        <video controls class="w-100">
+          <source src="videos/vid1.MOV" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 1 -->
+<div class="modal fade" id="modal2" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-dark border-0">
+      <div class="modal-body p-0">
+        <video controls class="w-100">
+          <source src="videos/vid3.MOV" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 1 -->
+<div class="modal fade" id="modal3" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-dark border-0">
+      <div class="modal-body p-0">
+        <video controls class="w-100">
+          <source src="videos/vid2.MOV" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+ 
+   
+
+
+
+
+
+
+
+
+
+  <!-- Footer -->
+<footer class="reveal-bottom delay-3  bg-dark text-light pt-5 pb-3">
+  <div class="container">
+    <div class="row text-center text-md-start">
+      
+      <!-- Logo / Brand -->
+      <div class="col-md-3 mb-4">
+        <h5 class="text-uppercase fw-bold">Shane's Carpentry</h5>
+        <p class="small">Precision. Quality. Reliability.</p>
+      </div>
+
+      <!-- Navigation -->
+      <div class="col-md-3 mb-4">
+        <h6 class="text-uppercase fw-bold">Navigation</h6>
+        <ul class="list-unstyled small">
+          <li><a href="index.html" class="text-light text-decoration-none">Home</a></li>
+          <li><a href="portfolio.html" class="text-light text-decoration-none">Portfolio</a></li>
+          <li><a href="contact.html" class="text-light text-decoration-none">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Services -->
+      <div class="col-md-3 mb-4">
+        <h6 class="text-uppercase fw-bold">Services</h6>
+        <ul class="list-unstyled small">
+          <li>Custom Carpentry</li>
+          <li>Remodeling</li>
+          <li>Decks & Outdoor</li>
+          <li>Repairs</li>
+        </ul>
+      </div>
+
+<!-- Contact -->
+<!-- Contact -->
+<div class="col-md-3 mb-4">
+  <h6 class="text-uppercase fw-bold">Contact</h6>
+  <p class="small mb-1">📍 Lawrence, MA</p>
+  <p class="small mb-1">📞 (978) 555-1234</p>
+  <p class="small mb-1">✉️ <a href="mailto:shane@shanescarpentry.com" class="text-light text-decoration-none">shane@shanescarpentry.com</a></p>
+  <p class="small mb-0">
+    <i class="fab fa-instagram"></i>
+    <a href="https://www.instagram.com/shane.chunilal/" target="_blank" class="text-light text-decoration-none">@shane.chunilal
+</a>
+  </p>
+</div>
+
+
+
+    </div>
+
+    <hr class="border-light" />
+
+    <div class="text-center small text-muted">
+      &copy; 2025 Shane’s Carpentry. Built with craftsmanship and care.
+    </div>
+  </div>
+</footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- script for the videos to pause and play -->
+<script>
+  const modals = document.querySelectorAll('.modal');
+  modals.forEach(modal => {
+    modal.addEventListener('hidden.bs.modal', function () {
+      const video = modal.querySelector('video');
+      if (video) {
+        video.pause();
+        video.currentTime = 0;
+      }
+    });
+  });
+</script>
+
+<!-- script for the delay -->
+<script>
+  function revealOnScroll() {
+    const reveals = document.querySelectorAll('.reveal-left, .reveal-right, .reveal-bottom, .reveal-up');
+    for (let i = 0; i < reveals.length; i++) {
+      const windowHeight = window.innerHeight;
+      const elementTop = reveals[i].getBoundingClientRect().top;
+      const elementVisible = 100;
+
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("active");
+      }
+    }
+  }
+
+  window.addEventListener("scroll", revealOnScroll);
+  window.addEventListener("load", revealOnScroll);
+</script>
+
+
+</body>
+</html>

@@ -28,7 +28,7 @@ Website for my friends carpentry business for the future with pages for his port
 
 ## 📸 Preview
 
-![Image alt](https://github.com/paulcodes777/Paulciaga/blob/86cdab6a4be3c1c9905da1a7a68a2c882a1c7edd/Screenshot%202025-05-14%20121645.png)
+![Image alt](https://github.com/paulcodes777/Scarpentry2/blob/69ac46e1ddec1b67ca6f2d434f3fb08f353fe5dd/shanehome1.png)
 *(You can add your own screenshot here!)*
 
 

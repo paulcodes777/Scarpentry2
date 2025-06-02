@@ -39,6 +39,14 @@ Services Page in the Home Page
 Part 1 of Contact Page
 ![Image alt](https://github.com/paulcodes777/Scarpentry2/blob/088b0d096251ff4e1ae3242d2ca313619c28abc2/shanecontact1.png)
 
+Part 2 of Contact Page
+![Image alt](https://github.com/paulcodes777/Scarpentry2/blob/2553d2dd9cf26ec10f448c83cb08736274fb8df2/shanecontact1.png)
+
+
+
+
+
+
 
 
 

@@ -42,7 +42,8 @@ Part 1 of Contact Page
 Part 2 of Contact Page
 ![Image alt](https://github.com/paulcodes777/Scarpentry2/blob/2553d2dd9cf26ec10f448c83cb08736274fb8df2/shanecontact1.png)
 
-
+Part 1 of Portfolio Page
+![Image alt](https://github.com/paulcodes777/Scarpentry2/blob/ef92bb6145722a529ad4a8e84282250ae22bb6b3/shaneport1.png)
 
 
 

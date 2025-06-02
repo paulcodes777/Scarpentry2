@@ -8,7 +8,7 @@ Website for my friends carpentry business for the future with pages for his port
 - Bootstrap 5
 - Google Fonts (Lato, optional cursive styling)
 - Font Awesome / Emojis
-- GitHub Pages for deployment
+
 
 ## Features
 
@@ -19,7 +19,6 @@ Website for my friends carpentry business for the future with pages for his port
 - Portfolio with clickable videos/images
 - Custom contact form with modal confirmation
 - Footer with social media links
-- Deployed via GitHub Pages
 
 ## Pages
 

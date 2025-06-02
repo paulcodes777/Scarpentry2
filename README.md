@@ -1,5 +1,5 @@
 # Scarpentry2
-Website for my friends carpentry business for the future with pages for his portfolio contact information, built using HTML, CSS, Bootstrap, and JavaScript animations.
+Website for my friends carpentry business for the future with pages for his services, portfolio contact information, built using HTML, CSS, Bootstrap, and JavaScript animations.
 
 
 ## Technologies Used
@@ -36,7 +36,8 @@ About Page in the Home Page
 Services Page in the Home Page
 ![Image alt](https://github.com/paulcodes777/Scarpentry2/blob/8650c7a42d18198d34fb734c0af7c7d525a72768/shaneservices.png)
 
-
+Part 1 of Contact Page
+![Image alt](https://github.com/paulcodes777/Scarpentry2/blob/088b0d096251ff4e1ae3242d2ca313619c28abc2/shanecontact1.png)
 
 
 

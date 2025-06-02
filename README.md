@@ -42,6 +42,9 @@ Website for my friends carpentry business for the future with pages for his serv
 ### Part 2 of Contact Page
 ![Image alt](https://github.com/paulcodes777/Scarpentry2/blob/74e0e13bda296c1e733f2c1a8e7f8a1ef363a0f4/shanecontact2.png)
 
+### Part 3 of Contact Page
+![Image alt](https://github.com/paulcodes777/Scarpentry2/blob/9d78919b23f15f4c8b2b164918c212fdbc667697/shanemodal.png)
+
 ### Part 1 of Portfolio Page
 ![Image alt](https://github.com/paulcodes777/Scarpentry2/blob/ef92bb6145722a529ad4a8e84282250ae22bb6b3/shaneport1.png)
 

@@ -27,8 +27,12 @@ Website for my friends carpentry business for the future with pages for his port
 - `contact.html` – Contact form with email, location, and Instagram info
 
 ## 📸 Screenshots
-
+Home Page
 ![Image alt](https://github.com/paulcodes777/Scarpentry2/blob/69ac46e1ddec1b67ca6f2d434f3fb08f353fe5dd/shanehome1.png)
+
+About Page in the Home Page 
+![Image alt](https://github.com/paulcodes777/Scarpentry2/blob/6fd12ca9aae70e269f9e625b5af72ea0b1ba0163/shaneabout.png)
+
 
 
 

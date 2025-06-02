@@ -33,6 +33,9 @@ Home Page
 About Page in the Home Page 
 ![Image alt](https://github.com/paulcodes777/Scarpentry2/blob/6fd12ca9aae70e269f9e625b5af72ea0b1ba0163/shaneabout.png)
 
+Services Page in the Home Page
+![Image alt](https://github.com/paulcodes777/Scarpentry2/blob/8650c7a42d18198d34fb734c0af7c7d525a72768/shaneservices.png)
+
 
 
 

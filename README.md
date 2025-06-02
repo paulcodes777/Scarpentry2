@@ -48,7 +48,8 @@ Part 1 of Portfolio Page
 Part 2 of Portfolio Page
 ![Image alt](https://github.com/paulcodes777/Scarpentry2/blob/1ebc69dc0f00fcd47016bb67f529fb17312b788a/shaneport2.png)
 
-
+Footer
+![Image alt](https://github.com/paulcodes777/Scarpentry2/blob/9d133e174d5fbe314d7f0281a1f9b5a63d7d12aa/shanefooter.png)
 
 
 
